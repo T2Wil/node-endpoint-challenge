@@ -1,6 +1,6 @@
 const express = require('express'); // call express
 const app = express(); // define our app using 
-const {getPhotosByAlbumId, returnUrlAndThumbnail} = require('./controller/getPhotos');
+const {getPhotosByAlbumId, returnUrlAndThumbnail} = require('./helpers/getPhotos');
 
 const PORT = process.env.PORT || 3000;
 
